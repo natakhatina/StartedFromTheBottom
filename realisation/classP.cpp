@@ -33,3 +33,9 @@ void Point::setF_Uk(float *pf){
     Point::f=*pf;
 }
 
+void Point::Number3(float f3) {
+    int x=(int)Point::f;
+    int y=(int)f3;
+    Point::f=(float)x+f3-(float)y;
+}
+

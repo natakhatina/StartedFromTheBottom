@@ -26,6 +26,7 @@ public:
 
     void setF_Uk(float *pf);
 
+    void Number3 (float f3);
 
 };
 
