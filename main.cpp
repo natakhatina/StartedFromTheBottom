@@ -15,10 +15,10 @@ int main() {
     A.setF_Uk(px);
     std::cout << "float: "<<A.getF() << std::endl;
     // №2
-    std::cout << "Область памяти как int: "<<(int)*A.getF_Adress()<< std::endl;
+    std::cout << "Область памяти как int: "<<*((int*)A.getF_Adress())<< std::endl;
     x=5;
     A.setF_Uk(px);
-    std::cout << "Область памяти как int: "<<(int)*A.getF_Adress()<< std::endl;
+    std::cout << "Область памяти как int: "<<*((int*)A.getF_Adress())<< std::endl;
 
     return 0;
 }
